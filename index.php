@@ -9,7 +9,26 @@
     <script src="main.js"></script>
 </head>
 <body>
+<?php
+//ConversiÃ³n a enteros
+
+//contexto (Genera una advertencia en PHP error)
+$variable="20 hola mundo";
+$suma=20.1+$variable;
+
+echo $suma;
+echo gettype($suma);
+
+//Forzado de tipo
+$nuevoint=(int)$variable;
+
+echo $nuevoint;
+echo gettype($nuevoint);
+
+
+?>
+
 <br>
-Body vacío    
+--------  
 </body>
 </html>
