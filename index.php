@@ -9,8 +9,7 @@
     <script src="main.js"></script>
 </head>
 <body>
-    
-
-    
+<br>
+Body vacío    
 </body>
 </html>
